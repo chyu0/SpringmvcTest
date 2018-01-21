@@ -28,6 +28,6 @@
 		<input name="submit" type="submit" value="查询">
 	</form>
 	
-	<!-- commit6 -->
+	<!-- commit12 -->
 </body>
 </html>

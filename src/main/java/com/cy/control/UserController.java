@@ -70,6 +70,12 @@ public class UserController {
 		return "commit1";
 	}
 	
+	//commit10
+	public String commit10(){
+		System.out.println("commit10");
+		return "commit10";
+	}
+	
 	@RequestMapping("/update")
 	public String update(String name,String tel,int id,HttpServletRequest request){
 		User user=new User();
@@ -81,6 +87,6 @@ public class UserController {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("commit1");
+		System.out.println("commit10");
 	}
 }
