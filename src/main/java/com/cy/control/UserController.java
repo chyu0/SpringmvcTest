@@ -58,6 +58,12 @@ public class UserController {
 		return "edit";
 	}
 	
+	//commit7
+	public String commit7(){
+		System.out.println("commit7");
+		return "commit7";
+	}
+	
 	@RequestMapping("/update")
 	public String update(String name,String tel,int id,HttpServletRequest request){
 		User user=new User();
@@ -65,5 +71,10 @@ public class UserController {
 		user.setTel(tel);
 		userDao.updateUser(user,id);
 		return getAll(request);
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("commit1");
 	}
 }
