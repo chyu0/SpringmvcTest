@@ -35,13 +35,16 @@
 		<property name="password" value="" />
 	</bean>
 	
+	<!-- commit4 -->
 	<bean id="jdbctemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
     
+    <!-- commit4 -->
     <bean id="userDao" class="com.cy.DAO.UserDAO" parent="jdbctemplate">
     </bean>
     
+    <!-- commit4 -->
      <bean id="userController" class="com.cy.control.UserController">
        	<property name="userDao" ref="userDao"></property>
     </bean>
