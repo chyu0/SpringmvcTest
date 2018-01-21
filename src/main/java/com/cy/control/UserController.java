@@ -59,9 +59,9 @@ public class UserController {
 	}
 	
 	//commit7
-	public String commit7(){
-		System.out.println("commit7");
-		return "commit7";
+	public String commit1(){
+		System.out.println("commit1");
+		return "commit1";
 	}
 	
 	@RequestMapping("/update")
