@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- commit9 -->
 	<form action="<%=request.getContextPath()%>/user?method=add" method="post">
 		<input name="name" id="name" type="text">
 		<input name="tel" id="tel" type="text">
