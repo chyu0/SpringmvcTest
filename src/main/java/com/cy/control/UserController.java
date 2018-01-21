@@ -64,6 +64,12 @@ public class UserController {
 		return "commit1";
 	}
 	
+	//commit7
+	public String commit6(){
+		System.out.println("commit6");
+		return "commit1";
+	}
+	
 	@RequestMapping("/update")
 	public String update(String name,String tel,int id,HttpServletRequest request){
 		User user=new User();
