@@ -23,4 +23,7 @@ public class User {
 		this.tel = tel;
 	}
 	
+	public static void main(String[] args) {
+		System.out.println("commit3");
+	}
 }
