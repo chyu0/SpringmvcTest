@@ -40,11 +40,11 @@
         <property name="dataSource" ref="dataSource"></property>
     </bean>
     
-    <!-- commit4 -->
+    <!-- commit444 -->
     <bean id="userDao" class="com.cy.DAO.UserDAO" parent="jdbctemplate">
     </bean>
     
-    <!-- commit4 -->
+    <!-- commit4444W -->
      <bean id="userController" class="com.cy.control.UserController">
        	<property name="userDao" ref="userDao"></property>
     </bean>
