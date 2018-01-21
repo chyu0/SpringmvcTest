@@ -46,6 +46,10 @@ public class UserDAO extends JdbcDaoSupport {
 		return userlist;
 	}
 	
+	public void commit8(){
+		System.out.println("commit8");
+	}
+	
 	public void addUser(User user){
 		String sql="insert into user(name,tel) values(?,?)";
 		getJdbcTemplate().update(sql, new Object[]{user.getName(),user.getTel()});
