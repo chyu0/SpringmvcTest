@@ -66,4 +66,9 @@ public class UserController {
 		userDao.updateUser(user,id);
 		return getAll(request);
 	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println("commit1");
+	}
 }
