@@ -59,9 +59,21 @@ public class UserController {
 	}
 	
 	//commit7
-	public String commit7(){
-		System.out.println("commit7");
-		return "commit7";
+	public String commit1(){
+		System.out.println("commit1");
+		return "commit1";
+	}
+	
+	//commit7
+	public String commit6(){
+		System.out.println("commit6");
+		return "commit1";
+	}
+	
+	//commit10
+	public String commit10(){
+		System.out.println("commit10");
+		return "commit10";
 	}
 	
 	@RequestMapping("/update")
@@ -75,6 +87,6 @@ public class UserController {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("commit1");
+		System.out.println("commit10");
 	}
 }
