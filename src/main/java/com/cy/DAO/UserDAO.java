@@ -46,8 +46,8 @@ public class UserDAO extends JdbcDaoSupport {
 		return userlist;
 	}
 	
-	public void commit8(){
-		System.out.println("commit8");
+	public void commit2(){
+		System.out.println("commit2");
 	}
 	
 	public void addUser(User user){
